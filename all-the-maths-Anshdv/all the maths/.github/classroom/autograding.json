@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "Math Test",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=MathTest test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Code Coverage",
+      "setup": "mvn compile",
+      "run": "mvn verify",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+
+  ]
+}

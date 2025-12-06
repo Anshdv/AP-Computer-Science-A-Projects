@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "name": "Item",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=Item test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Shopping Cart Calculator",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=ShoppingCartCalculator test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Code Coverage",
+      "setup": "mvn compile",
+      "run": "mvn verify",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+
+  ]
+}
